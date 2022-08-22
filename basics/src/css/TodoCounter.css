@@ -1,0 +1,21 @@
+.TodoCounter-h1{
+    /* Bienvenido a NarTask */
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: var(--grey-text);
+    margin-top: 20px;
+    text-align:center;
+}
+    .TodoCounter-h1--strong{
+        color: var(--black-one);
+    }
+.TodoCounter-h2{
+    /* Haz hecho 2 de 4 tareas */
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: var(--white-text);
+    text-align:center;
+}
+    .TodoCounter-h2--strong{
+        color: var(--black-one);
+    }

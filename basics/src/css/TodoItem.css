@@ -1,0 +1,80 @@
+.TodoItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-top: 20px;
+    min-width: 260px;
+    height: 100px;
+
+    background: var(--green-dark);
+    box-shadow: 15px 27px 12px rgba(1, 50, 35, 0.02), 9px 15px 11px rgba(1, 50, 35, 0.06), 4px 7px 8px rgba(1, 50, 35, 0.1), 1px 2px 4px rgba(1, 50, 35, 0.12), 0px 0px 0px rgba(1, 50, 35, 0.12);
+}
+.TodoItem .status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    cursor: pointer;
+
+    width: 40px;
+    height: 100px;
+
+    background-image: url(../images/EllipseRed.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(4px 6px 3px rgba(5, 46, 33, 0.02)) drop-shadow(2px 3px 2px rgba(5, 46, 33, 0.07)) drop-shadow(1px 1px 2px rgba(5, 46, 33, 0.12)) drop-shadow(0px 0px 1px rgba(5, 46, 33, 0.14)) drop-shadow(0px 0px 0px rgba(5, 46, 33, 0.14));
+}
+.TodoItem .status-active{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    cursor: pointer;
+
+    width: 40px;
+    height: 100px;
+
+    background-image: url(../images/Ellipse\ 4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(4px 6px 3px rgba(5, 46, 33, 0.02)) drop-shadow(2px 3px 2px rgba(5, 46, 33, 0.07)) drop-shadow(1px 1px 2px rgba(5, 46, 33, 0.12)) drop-shadow(0px 0px 1px rgba(5, 46, 33, 0.14)) drop-shadow(0px 0px 0px rgba(5, 46, 33, 0.14));
+}
+.TodoItem .description{
+    width: 180px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--white-text);
+}
+.TodoItem .description-active{
+    text-decoration: line-through;
+}
+.TodoItem .delete{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    cursor: pointer;
+
+    width: 40px;
+    height: 100px;
+
+    background-image: url(../images/trash-2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(4px 6px 3px rgba(5, 46, 33, 0.02)) drop-shadow(2px 3px 2px rgba(5, 46, 33, 0.07)) drop-shadow(1px 1px 2px rgba(5, 46, 33, 0.12)) drop-shadow(0px 0px 1px rgba(5, 46, 33, 0.14)) drop-shadow(0px 0px 0px rgba(5, 46, 33, 0.14));
+}
+.TodoItem .delete:hover{
+    background-image: url(../images/trash-2-Red.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(4px 6px 3px rgba(5, 46, 33, 0.02)) drop-shadow(2px 3px 2px rgba(5, 46, 33, 0.07)) drop-shadow(1px 1px 2px rgba(5, 46, 33, 0.12)) drop-shadow(0px 0px 1px rgba(5, 46, 33, 0.14)) drop-shadow(0px 0px 0px rgba(5, 46, 33, 0.14));
+}

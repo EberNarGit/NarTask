@@ -1,0 +1,11 @@
+.empty{
+    width: 261px;
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+}

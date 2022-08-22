@@ -1,0 +1,23 @@
+
+/* Genral */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+:root {
+  --green-background: #028960;
+  --green-dark: #0D7253;
+  --grey-text: #CBCEE9;
+  --white-text: #E1E1E4;
+  --black-one:#37373A;
+}
+body {
+  background-color: var(--green-background);
+}
