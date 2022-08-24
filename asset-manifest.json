@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/NarTask/static/css/main.6bd97797.css",
+    "main.js": "/NarTask/static/js/main.a06885ea.js",
+    "static/media/trash-2-Red.svg": "/NarTask/static/media/trash-2-Red.6c164cd968bc07d7186f.svg",
+    "static/media/trash-2.svg": "/NarTask/static/media/trash-2.2343658035007c308584.svg",
+    "index.html": "/NarTask/index.html",
+    "static/media/search.svg": "/NarTask/static/media/search.31b2fb9d926e48ebcf29.svg",
+    "static/media/More.svg": "/NarTask/static/media/More.8906b12d6227f97612b7.svg",
+    "static/media/Ellipse 4.svg": "/NarTask/static/media/Ellipse 4.28601cc210724dfc4a8b.svg",
+    "static/media/EllipseRed.svg": "/NarTask/static/media/EllipseRed.1a940ca1ed828fd0dd63.svg",
+    "main.6bd97797.css.map": "/NarTask/static/css/main.6bd97797.css.map",
+    "main.a06885ea.js.map": "/NarTask/static/js/main.a06885ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bd97797.css",
+    "static/js/main.a06885ea.js"
+  ]
+}
